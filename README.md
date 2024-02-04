@@ -1,18 +1,3 @@
-1. install dependencies - npm install @trpc/server@next @trpc/client@next @trpc/react-query@next @trpc/next@next @tanstack/react-query@latest zod
+# overview : 
 
-2. file structure : 
-src
- - app
-  - _trpc
-   - client.ts //createTRPCReact
-  - api
-   - trpc
-    - [trpc]
-     - route.ts //refer to docs as "next app router"
-  - components
-   - Providers.tsx //client component 
- - trpc
-  - index.ts //appRouter
-  - trpc.ts //initTRPC
-
-3. wrap body in layout.tsx with Provider
+![image](https://github.com/tejus05/tRPC-setup-template/assets/118271901/db1bf37d-78d4-47b9-a3d4-63b8427de912)
